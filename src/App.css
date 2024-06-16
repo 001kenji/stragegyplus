@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Big;
+    src: url('./assets/font/Poppins-Bold.ttf');
+  }
+  @font-face {
+    font-family: sentense;
+    src: url('./assets/font/Poppins-Regular.ttf');
+  }
+  #big {
+    font-family: Big;
+  }
+  #sentense {
+    font-family: sentense;
+  }
+
+
+  #home {
+    animation: home 8s infinite ease-in-out;
+  }
+  @keyframes home {
+    0% {background-image: url('./assets/images/slide/1.jpg');}
+    50% {background-image: url('./assets/images/slide/2.jpg');}
+    100% {background-image: url('./assets/images/slide/1.jpg');}
+  }
